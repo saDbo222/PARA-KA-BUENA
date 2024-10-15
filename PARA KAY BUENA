@@ -1,0 +1,21 @@
+ public static void main(String[] args) {
+        	String name = "Abraham I. Simbulan";
+    		int workingdays = 21;
+    		double Drate = 1666.67;
+    		double leaveDduct = Drate*4;
+    		double pagibigdeduct = 200*2;
+    		double salary = Drate*21;
+    		double latededuct = Drate/8*.5;
+    		double net = Drate * workingdays - leaveDduct - pagibigdeduct - latededuct;
+    		
+    		System.out.println("name: " + name);
+    		System.out.println("workingdays: " + workingdays);
+    		System.out.println("Drate: " + Drate);
+    		System.out.println("leaveDduct: "+ leaveDduct);
+    		System.out.println("pagibigdeduct; "+ pagibigdeduct);
+    		System.out.println("salary: "+salary);
+    		System.out.println("latededuct:  " + latededuct);
+    		System.out.println("Unpaid leave days:" + leaveDduct);
+    		System.out.println("net total pay:" + net);
+    }
+}
